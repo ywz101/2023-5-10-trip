@@ -1,10 +1,12 @@
 <script setup>
-
+import HomeNavBar from './cpns/HomeNavBar.vue'
+import HomeBanner from './cpns/HomeBanner.vue'
 </script>
 
 <template>
   <div class="home">
-    <h2>home组件</h2>
+    <HomeNavBar />
+    <HomeBanner />
   </div>
 </template>
 
