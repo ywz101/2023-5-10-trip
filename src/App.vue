@@ -1,12 +1,11 @@
 <script setup>
 import TabBar from '@/components/tabbar/TabBar.vue'
-import Home from '@/views/home/Home.vue'
 </script>
 
 <template>
   <div class="app">
+    <router-view />
     <TabBar />
-    <Home />
   </div>
 </template>
 

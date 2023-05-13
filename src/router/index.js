@@ -28,5 +28,15 @@ export const router = createRouter({
       path: '/message',
       component: () => import('@/views/message/Message.vue')
     },
+    {
+      name: 'city',
+      path: '/city',
+      component: () => import('@/views/city/City.vue')
+    },
+    {
+      name: 'search',
+      path: '/search',
+      component: () => import('@/views/search/Search.vue')
+    },
   ]
 })

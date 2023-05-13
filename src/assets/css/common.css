@@ -1,7 +1,37 @@
 :root {
   --primary-color: #ff9854;
+  --van-search-left-icon-color: var(--primary-color) !important;
+  --line-color: #f2f2f2;
+  --van-calendar-popup-height: 75% !important;
+  line-height: 1 !important;
+  --theme-linear-gradient: linear-gradient(to right, #ed8e22, #f8c277) !important;
 }
 
 body {
   font-size: 14px;
+}
+
+/* 隐藏tabbar */
+.hide-tabbar {
+  position: relative;
+  z-index: 9;
+  height: 100vh;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+/* 公共块区域 */
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  padding-right: 60px;
+  height: 44px;
+  color: #999;
+}
+
+/* 公共下灰线 */
+.bottom-gray-line {
+  border-bottom: 1px solid var(--line-color);
 }
