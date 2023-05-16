@@ -27,8 +27,8 @@ const cancelClick = () => {
 
 // 滚动条逻辑
 const { isReachBottom, scrollTop } = useScroll()
-watch(isReachBottom, newTop => {
-  if (newTop) {
+watch(isReachBottom, newValue => {
+  if (newValue) {
     homeStore.fetchHouseList().then(() => {
       isReachBottom.value = false
     })

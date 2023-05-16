@@ -50,6 +50,8 @@ const props = defineProps({
     background: #fff;
     border-radius: 6px;
     overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0 0 0 / .3);
+    height: 226px;
 
     .summary {
       margin-top: 3px;
